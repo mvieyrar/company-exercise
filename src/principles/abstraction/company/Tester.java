@@ -1,8 +1,9 @@
-package principles.abstraction.company;
+package principles.abstraction.company.proposal;
 
-public class Tester
-{
-    public String testSoftware(String systemName) {
-        return "Tested: " + systemName + "\n";
-    }
+public class Tester implements Employee
+{    
+	@Override
+	public String doWork(String systemName) {
+		return "Tested: " + systemName + "\n";
+	}
 }

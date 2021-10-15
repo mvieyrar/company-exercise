@@ -1,6 +1,6 @@
-package principles.abstraction.company;
+package principles.abstraction.company.proposal;
 
-public class Company
+public abstract class Company
 {
     private String name;
 
@@ -8,21 +8,8 @@ public class Company
     {
         this.name = name;
     }
-
-    public String createSoftware(String systemName) {
-        StringBuilder system = new StringBuilder();
-
-        Designer designer = new Designer();
-        system.append(designer.designArchitecture(systemName));
-
-        Programmer programmer = new Programmer();
-        system.append(programmer.writeCode(systemName));
-
-        Tester tester = new Tester();
-        system.append(tester.testSoftware(systemName));
-
-        return system.toString();
-    }
+    
+    public abstract String createProduct(String productName);
 
     public String getName()
     {
