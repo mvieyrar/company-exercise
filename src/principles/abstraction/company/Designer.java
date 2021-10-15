@@ -1,8 +1,9 @@
-package principles.abstraction.company;
+package principles.abstraction.company.proposal;
 
-public class Designer
+public class Designer implements Employee
 {
-    public String designArchitecture(String systemName) {
-        return "Here's the architecture for: " + systemName + "\n";
-    }
+    @Override
+	public String doWork(String systemName) {
+		return "Here's the architecture for: " + systemName + "\n";
+	}
 }

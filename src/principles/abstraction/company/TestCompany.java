@@ -1,9 +1,9 @@
-package principles.abstraction.company;
+package principles.abstraction.company.proposal;
 
 public class TestCompany
 {
     public static void main(String[] args) {
-        Company company = new Company("A tu medida");
-        System.out.println(company.createSoftware("Nomina"));
+        Company company = new SoftwareCompany("A tu medida");
+        System.out.println(company.createProduct("Nomina"));
     }
 }

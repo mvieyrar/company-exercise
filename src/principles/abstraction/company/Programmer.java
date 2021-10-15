@@ -1,8 +1,9 @@
-package principles.abstraction.company;
+package principles.abstraction.company.proposal;
 
-public class Programmer
-{
-    public String writeCode(String systemName) {
-        return "Here's the code for: " + systemName + "\n";
-    }
+public class Programmer implements Employee
+{    
+	@Override
+	public String doWork(String systemName) {
+		return "Here's the code for: " + systemName + "\n";
+	}
 }
