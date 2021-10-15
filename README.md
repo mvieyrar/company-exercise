@@ -1,2 +1,2 @@
 # company-exercise
-Proyecto Original
+Proyecto Original para ver la propuesta ir a la rama company-exercise-proposal.
