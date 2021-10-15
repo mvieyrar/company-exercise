@@ -1,2 +1,2 @@
 # company-exercise
-Proyecto Original para ver la propuesta ir a la rama company-exercise-proposal.
+Proyecto aplicando principios de diseño.
